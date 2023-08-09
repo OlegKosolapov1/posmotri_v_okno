@@ -180,7 +180,7 @@ ol {
 }
 
 .button:hover {
-  text-decoration-line: underline;
+  text-decoration-line: none;
 }
 
 .button:focus {
@@ -281,6 +281,9 @@ ol {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .content__video-card-description {
@@ -292,8 +295,8 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  object-fit: fill;
-  max-width: 50%;
+  height: 103px;
+  width: 194px;
 }
 
 .more-button {
